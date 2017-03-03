@@ -1,0 +1,1 @@
+Aku adalah Rahmawati Rina Hariani yang selalu menunggu
