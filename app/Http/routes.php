@@ -1,4 +1,4 @@
-<?php
+]<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -11,10 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::get('/halamanku', function () {
+    return view ('halamanku');
 });
 
 Route::get('public', function () {
     return view('Biodata');
+});
+
+Route::auth();
+
+Route::get('pengguna/{Rahmawati}',function ($pengguna)
+{
+	return "Hallo word dari pengguna $pengguna";
 });
