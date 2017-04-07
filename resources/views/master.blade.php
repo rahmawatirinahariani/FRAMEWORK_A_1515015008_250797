@@ -50,7 +50,7 @@
 						<ul class="dropdown-menu" aria-labelledby="dLabel">
 							<li><a href="{{url('dosen')}}">Data Dosen</a></li>
 							<li class="divider"></li>
-							<li><a href="{{url('dosen_matakuliah')}}">Jadwal Dosen Mengajar</a></li>
+							<li><a href="{{url('dosenMatakuliah')}}">Jadwal Dosen Mengajar</a></li>
 						</ul>
 					</li>
 					<li class="dropdown active">

@@ -10,12 +10,12 @@ class Pengguna extends Model
 
 	public function mahasiswa()
 	{
-		return this->hasOne(Mahasiswa::class);
+		return $this->hasOne(Mahasiswa::class);
 	}
 
 	public function dosen()
 	{
-		return this->hasOne(Dosen::class);
+		return $this->hasOne(Dosen::class);
 	}
 
 	//public function peran()
